@@ -1,0 +1,16 @@
+.menu {
+    list-style-type: none;
+
+}
+
+.menu>li {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #000000;
+    
+
+}
