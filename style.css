@@ -53,16 +53,12 @@ body {
     align-content: space-between;
 }
 
-.content {
+.content-news {
     flex: 1 0 65%;
 
 }
 
-.previews {
-    flex: 0 1 35%;
-    margin-left: 30px;
 
-}
 
 .news {
     display: flex;
@@ -170,7 +166,127 @@ body {
 
 }
 
+.previews {
+    flex: 0 1 35%;
+    margin-left: 30px;
+}
 
+.preview-container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-container {
+    position: relative;
+    padding-top: 33px;
+    display: flex;
+    flex: 0 1 35%;
+
+}
+
+.preview-container:first-child {
+    padding-top: 0px;
+}
+
+
+
+.preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.preview-container-tittle {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+.preview-tittle-black {
+    margin: 0;
+    padding: 0;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.preview-tittle {
+    margin: 0px;
+    padding: 0px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.buttom {
+    position: absolute;
+    bottom: 10%;
+    left: 27%;
+    right: 27%;
+    text-decoration: none;
+}
+
+.buttom-container-orange {
+    height: 47px;
+    background-color: #FF7931;
+}
+
+.buttom-container {
+    height: 47px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid #FF9A64;
+}
+
+.preview-container-buttom {
+    position: absolute;
+    margin: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttom-tittle-container {
+    flex: 0 1 70%;
+}
+
+.buttom-tittle {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.arrow-container {
+    flex: 0 1 20%;
+    margin-left: 2px;
+}
+
+.arrow-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: invert(100%);
+}
 
 .menu__footer {
     list-style-type: none;
