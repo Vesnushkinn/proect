@@ -938,14 +938,18 @@ footer {
         display: none;
     }
 
+    .main {
+        padding: 0 5% 0 5%;
+    }
+
     .overviews {
-        justify-content: space-around;
+        justify-content: space-betwween;
         margin: 0px;
     }
 
     .overviews-item {
         flex: 0 1 40%;
-       margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     .main-content {
