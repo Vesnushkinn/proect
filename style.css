@@ -1,10 +1,19 @@
+html {
+    color: rgba(0, 0, 0, 1);
+}
+
 body {
     margin: 0px;
 }
 
+a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
 .slider {
     height: 464px;
-    background-image: url(https://s3-alpha-sig.figma.com/img/0f0c/3eb6/d3f1f50749c31e342a039d1e1a02fb4a?Expires=1641168000&Signature=IkkpBH~QN6bQ8EjeWwrc2m5Up5EEqwX7ah1cuVpO2clJVzLK6hDcgoqlypwjI6AdugEEnIQyShFWcn6FXUKbFizMeBWLOGQak6cjdOI2V7yz~cHxrwR2rzqHDkQfD32cX1~1TuBuMdlTVwCIPjGkUfGY5Y4vsoItK4uLCvnwjC6fOmDpFKkxTCEYAWIlqNJ3Cy6G5AYuiaLquL8YRRSPoHr1bLAZ6jCzkOxMmgTNPE8VtNRZ6uqiCzG1DDc3VTYDAsJKhPZPJyjlztSckxlBap~fsiZDYI0ToL~HXjzVLB2A2sEEe~45SFKvR3tkJ0ool3ZlEI59VBqQuuSIu8JfhQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url(img/hotel.jpg) ;
     background-size: cover;
     background-position: center;
     background-color: gray;
@@ -159,6 +168,11 @@ body {
     letter-spacing: 1px;
     text-align: center;
     margin: 0px;
+    color: black;
+}
+
+.title:hover {
+    cursor: pointer;
 }
 
 .menu-container {
@@ -172,9 +186,10 @@ body {
     text-align: center;
     text-transform: uppercase;
     padding: 0px;
+    color: rgba(0, 0, 0, 1);
 }
 
-.menu>li {
+.menu>a {
     position: relative;
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -182,7 +197,7 @@ body {
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 2px;
-    color: #000000;
+    color: rgba(0, 0, 0, 1);
 }
 
 .menu>li::after {
